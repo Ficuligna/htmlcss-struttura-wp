@@ -1,0 +1,102 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body> header, body> main, body> footer{
+  width: 94vw;
+  max-width: 1280px;
+  margin: 0 auto;
+  /* DEBUG:  */
+  background-color: rgba(50, 50, 50, 0.5);
+  /* height: 200px; */
+  margin-bottom: 50px;
+  /* DEBUG:  */
+}
+body> header>#intestazione{
+  /* DEBUG:  */
+  height: 200px;
+  background-color: purple;
+  /* DEBUG:  */
+}
+body> header>nav{
+  /* DEBUG:  */
+  height: 50px;
+  background-color: brown;
+}
+/* DEBUG:  */
+ul{
+  display: none;
+}
+/* DEBUG:  */
+
+body> main> section:nth-child(1){
+  width: 25%;
+  /* DEBUG:  */
+  /* height: 50px; */
+  background-color: blue;
+  /* DEBUG:  */
+  float: left;
+}
+body> main> section:nth-child(2){
+  width: 50%;
+  /* DEBUG:  */
+  /* height: 50px; */
+  background-color: green;
+  /* DEBUG:  */
+  float: left;
+}
+body> main> aside{
+  width: 25%;
+  /* DEBUG:  */
+  /* height: 50px; */
+  background-color: red;
+  /* DEBUG:  */
+  float: right;
+}
+.menuleft{
+  /* DEBUG:  */
+  height: 50px;
+  /* DEBUG:  */
+
+}
+.naturalarticle{
+  /* DEBUG:  */
+  height: 150px;
+  /* DEBUG:  */
+
+}
+.menuright{
+  /* DEBUG:  */
+  height: 50px;
+  /* DEBUG:  */
+}
+body> main:after{
+  content: "";
+  display:table;
+  clear: both;
+}
+.footersect{
+  width: 20%;
+  float: left;
+  /* DEBUG:  */
+  background-color: pink;
+  height: 150px;
+  /* DEBUG:  */
+}
+.footersect:nth-child(4){
+  width: 40%;
+  /* DEBUG:  */
+  background-color: black;
+  /* DEBUG:  */
+}
+body> footer>div:last-child{
+  height: 50px;
+  width: 100%;
+  /* DEBUG:  */
+  background-color: lightblue;
+  float: left;
+  /* DEBUG:  */
+
+}
